@@ -22,7 +22,6 @@ export const Main = styled.div`
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   &:hover {
-    transform: scale(1.014);
   }
 `
 export const Secondy = styled.div`
@@ -31,7 +30,6 @@ export const Secondy = styled.div`
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   &:hover {
-    transform: scale(1.014);
   }
 `
 export const Terciary = styled.div`
@@ -41,6 +39,5 @@ export const Terciary = styled.div`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.014);
   }
 `

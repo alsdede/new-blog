@@ -34,7 +34,8 @@ export const Wrapper = styled.article<WrapperProps>`
     position: relative;
     height: 100%;
     display: grid;
-
+    transition: all 0.3s ease-in-out;
+    overflow:hidden;
     &::after {
       content: '';
       position: absolute;
@@ -42,7 +43,7 @@ export const Wrapper = styled.article<WrapperProps>`
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
     }
-    transition: all 0.2s ease-in-out;
+
     a {
       text-decoration: none;
     }
@@ -51,7 +52,7 @@ export const Wrapper = styled.article<WrapperProps>`
       object-fit: cover;
       width:"100%",
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.2);
       }
     }
 
