@@ -8,7 +8,8 @@ export const Wrapper = styled.menu<MenuFullProps>`
     align-items: center;
     justify-content: center;
     padding: ${theme.spacings.medium} 0;
-    position: relative;
+    position: sticky;
+    top: 0px;
     z-index: ${isOpen ? theme.layers.menu : `calc(${theme.layers.menu} - 1)`};
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
     -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 20%);

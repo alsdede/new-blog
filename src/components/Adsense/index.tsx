@@ -2,11 +2,10 @@ import { Container } from 'components/Container'
 import Menu from 'components/Menu'
 import * as S from './styles'
 
-export type AdsenseProps = {}
+export type TopMenuProps = {}
 
-const Adsense = () => {
-  const teste = (value: unknown): asserts value is string => {}
+const TopMenu = () => {
   return <S.Wrapper></S.Wrapper>
 }
 
-export default Adsense
+export default TopMenu
