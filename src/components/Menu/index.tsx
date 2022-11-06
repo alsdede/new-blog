@@ -37,6 +37,12 @@ const Menu = ({ loading }: MenuProps) => {
           <S.MenuLink href="/viagens" passHref>
             Viagens
           </S.MenuLink>
+          <S.MenuLink href="/produtos" passHref>
+            Produtos
+          </S.MenuLink>
+          <S.MenuLink href="/produtos" passHref>
+            Cupons
+          </S.MenuLink>
         </S.MenuNav>
       </MediaMatch>
     </S.Wrapper>

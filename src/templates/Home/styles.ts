@@ -13,17 +13,26 @@ export const SectionBanner = styled.section`
   `}
 `
 export const SectionPosts = styled.div`
-  ${() => css`
+  ${({ theme }) => css`
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: 100%;
+    margin-bottom: ${theme.spacings.medium};
+    ${media.greaterThan('medium')`
+    flex-direction: row;
+    `}
   `}
 `
 export const Left = styled.div`
-  ${() => css``}
+  ${() => css`
+    width: 100%;
+  `}
 `
 export const Right = styled.div`
-  ${() => css``}
+  ${() => css`
+    width: 100%;
+    max-width: 35rem;
+  `}
 `
 export const SectionNews = styled.div`
   ${({ theme }) => css`
